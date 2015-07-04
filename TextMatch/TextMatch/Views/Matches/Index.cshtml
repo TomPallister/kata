@@ -1,0 +1,10 @@
+﻿@model TextMatch.Models.TextMatchOutputModel
+
+@{
+    ViewBag.Title = "Matches";
+}
+
+@Html.LabelFor(x => x.Output)
+@Html.DisplayFor(x => x.Output)
+<br/>
+@Html.ActionLink("Click here to try another match!", "Index", "Home")

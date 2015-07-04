@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateCalculation", "RateCalculation\RateCalculation.csproj", "{9A403CC2-A364-4645-97DB-2099D2E50DB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateCalculation.Tests", "RateCalculation.Tests\RateCalculation.Tests.csproj", "{EE3A4EEC-084A-4648-A7D4-7B7F2D96F91C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6E8054B1-75DA-48B9-B5A2-43E5FBB5FBD8}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A403CC2-A364-4645-97DB-2099D2E50DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A403CC2-A364-4645-97DB-2099D2E50DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A403CC2-A364-4645-97DB-2099D2E50DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A403CC2-A364-4645-97DB-2099D2E50DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE3A4EEC-084A-4648-A7D4-7B7F2D96F91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE3A4EEC-084A-4648-A7D4-7B7F2D96F91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE3A4EEC-084A-4648-A7D4-7B7F2D96F91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE3A4EEC-084A-4648-A7D4-7B7F2D96F91C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

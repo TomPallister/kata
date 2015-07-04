@@ -1,0 +1,19 @@
+﻿@model TextMatch.Models.TextMatchInputModel
+
+@{
+    ViewBag.Title = "Text Input Page";
+}
+
+@using (@Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.LabelFor(x => x.Text)
+    @Html.EditorFor(x => x.Text)
+    @Html.ValidationMessageFor(model => model.Text)
+    @Html.LabelFor(x => x.SubText)
+    @Html.EditorFor(x => x.SubText)
+    @Html.ValidationMessageFor(model => model.SubText)
+    <label>Click below to find the start positions of the words in SubText in Text!</label>
+    <br/>
+    <button id="submit">Find</button>
+}
