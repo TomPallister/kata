@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata", "Kata\Kata.csproj", "{6D4FBDD6-86CD-4CE2-9342-595E06E1062C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzKata", "FizzBuzzKata\FizzBuzzKata.csproj", "{894CC424-8B90-464E-8C1C-ED022F6A86DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DFD96FAF-231A-4D4D-AC88-0DF95E073363}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D4FBDD6-86CD-4CE2-9342-595E06E1062C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D4FBDD6-86CD-4CE2-9342-595E06E1062C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D4FBDD6-86CD-4CE2-9342-595E06E1062C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D4FBDD6-86CD-4CE2-9342-595E06E1062C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{894CC424-8B90-464E-8C1C-ED022F6A86DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{894CC424-8B90-464E-8C1C-ED022F6A86DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{894CC424-8B90-464E-8C1C-ED022F6A86DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{894CC424-8B90-464E-8C1C-ED022F6A86DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
